@@ -4,3 +4,4 @@ Host Tosin
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
     PubkeyAuthentication yes
+
