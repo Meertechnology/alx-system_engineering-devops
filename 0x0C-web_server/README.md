@@ -1,7 +1,7 @@
 0x0C. Web server
 ================
 
-- By Dev Nderitu
+- By Dev Ameer (Meertechnology) 
 - Weight: 1
 
 Concepts
