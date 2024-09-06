@@ -34,14 +34,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend meertech-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend meertech-tech-backend
 
-backend clickviral-tech-backend
+backend meertech-tech-backend
     balance roundrobin
-    server 151666-web-01 52.91.135.74 check
-    server 151666-web-02 52.91.135.74 check
+    server 360805-web-01 52.91.135.74 check
+    server 360805-web-02 54.237.31.50 check
 "
 
 # shellcheck disable=SC2154
@@ -61,3 +61,5 @@ fi
 echo -e "web-01 web-02"
 echo "web-01"
 echo "web-02"
+
+
